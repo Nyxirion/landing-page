@@ -132,3 +132,27 @@ h2{
 .info p{
     max-width: 150px;
 }
+
+.main-section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 130px 150px;
+}
+
+.quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 815px;
+}
+.citation{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-right: 180px;
+}
+
+
