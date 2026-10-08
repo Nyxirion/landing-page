@@ -50,7 +50,7 @@ ul{
 }
 
 .placeholder{
-    border: red solid 2px;
+    background-color: #999;
     height: 200px;
     width: 400px;
     margin-right: 120px;
@@ -156,3 +156,36 @@ h2{
 }
 
 
+.main-section-four{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.ad{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px 120px 50px 120px;
+    gap: 70px;
+}
+
+.ad p{
+    color: #E5E7EB;
+}
+.p-bolder{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.second-button{
+    border: white solid 2px
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
+}
