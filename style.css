@@ -3,22 +3,30 @@
 body, html{
     margin: 0;
     height: 100%;
+    background-color: #333;
     font-family: Roboto, sans-serif, Verdana, Geneva, Tahoma;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
 }
 
 .header{
     display: flex;
-    padding: 16px 250px 12px 250px;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #1F2937;
     align-items: center;
     color: #F9FAF8;
 }
 
 .logo{
-    margin-right: auto;
     font-size: 24px;
     font-weight: bolder;
-
+    flex-shrink: 0;
+    margin: 0 100px;
 }
 
 ul{
@@ -28,4 +36,99 @@ ul{
     display: flex;
     gap: 18px;
     font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 100px;
+}
+
+.main-section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #1F2937;
+    margin: 0 auto;
+    padding: 0 50px 150px 50px;
+}
+
+.placeholder{
+    border: red solid 2px;
+    height: 200px;
+    width: 400px;
+    margin-right: 120px;
+    flex-shrink: 0 ;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, p{
+    margin: 0;
+}
+
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 6px 28px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero-left{
+    margin-left: 100px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.main-section-two{
+    background-color: white;
+    padding: 30px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ilustrations{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.ilustration{
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
+    flex-shrink:0 ;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 190px;
+    text-align: center;
+    gap: 12px;
+}
+
+.info p{
+    max-width: 150px;
 }
